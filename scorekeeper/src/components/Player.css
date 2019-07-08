@@ -1,0 +1,23 @@
+.Player {
+    font-size: 20px;
+    margin: 20px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Player__name {
+    text-transform: uppercase;
+    
+}
+
+.Player__score {
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.Player__button {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+

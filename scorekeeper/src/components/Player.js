@@ -8,6 +8,7 @@ const Player = (props) => (
         <span className="Player__button" onClick={() => props.onPlayerScoreChange(1)} >+</span>
         <span className="Player__button" onClick={() => props.onPlayerScoreChange(-1)}>-</span>
         <span className="Player__button" onClick={() => props.onPlayerRemove()} >Remove</span>
+       
     </li>
 );
 
